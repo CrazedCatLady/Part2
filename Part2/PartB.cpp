@@ -15,7 +15,7 @@ int main()
 		printf("File was opened or created.\n");
 		printf("----- <Data Collection> -----\n");
 		printf("This is a program that can help you to analysis meteorological data.\n");
-		DataCollection(Site_ID[], day_of_month[], temperature[], humidity[], wind_speed[]);
+		DataCollection(&Site_ID[], &day_of_month[], &temperature[]);
 	}
 }
 
